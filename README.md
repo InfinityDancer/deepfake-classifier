@@ -3,13 +3,11 @@
 This was part of a project for university: creating a model for deepfake detection of Indian faces, with a test accuracy of 99.68%.
 This repository contains code to train a custom ResNet-18 model with various augmentations, MixUp, and Test-Time Augmentation (TTA) applied on an image classification task. The model is trained using a custom dataset and evaluated on both validation and test sets.
 
-The dataset contains 65483 images of which 31483 are real images and 34000 are fakes. The fakes contain 29000 faceswaps using facefusion and 5000 downloads from thispersondoesnotexist.com
+Our dataset contains 65483 images of which 31483 are real images and 34000 are fakes. The fake images contain 29000 faceswaps using facefusion and 5000 downloads from thispersondoesnotexist.com
 
 # Custom ResNet with Augmentation, MixUp, and TTA
 
 The .ipynb file contains the model architecture. The .py file is a Web API UI using streamlit.
-
-Link to storage: [Data and Model](https://drive.google.com/drive/folders/1lodTcVemGSLfRHavzTNpzgQmLKuYpyk9?usp=sharing)
 
 ## Features
 - **Data Augmentation**: Includes various augmentations like Random Horizontal Flip, Random Rotation, and Color Jitter.
